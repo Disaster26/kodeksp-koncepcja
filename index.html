@@ -3,411 +3,403 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Kodeks P - kadry, płace i księgowość, Tomaszkowo pod Olsztynem</title>
-<meta name="description" content="Kodeks P sp. z o.o. z Tomaszkowa pod Olsztynem. Kadry i płace oraz księgowość dla firm: listy płac, ZUS, PIT, akta pracownicze, VAT i księgi.">
+<title>Kodeks P - kadry, płace i księgowość pod Olsztynem</title>
+<meta name="description" content="Kodeks P sp. z o.o. z Tomaszkowa pod Olsztynem. Kadry i płace oraz księgowość dla małych firm: listy płac, ZUS, PIT, VAT, akta pracownicze i pomoc przy kontrolach.">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#ffffff">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%231e5b46'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23fff' text-anchor='middle'%3E%C2%A7%3C/text%3E%3C/svg%3E">
-<link rel="preload" href="fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/publicsans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d5c58'/%3E%3Cpath d='M10 8v16M10 16l9-8M13.5 13l6 11' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/jakarta-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/jakarta-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" imagesrcset="img/hero-640.avif 640w, img/hero-960.avif 960w, img/hero-1400.avif 1400w, img/hero-1920.avif 1920w" imagesizes="(max-width:899px) 100vw, 48vw" fetchpriority="high">
 <style>
-@font-face{font-family:Newsreader;font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/newsreader-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:Newsreader;font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/newsreader-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:"Public Sans";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/publicsans-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:"Public Sans";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/publicsans-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:"Serif Fallback";src:local("Georgia");size-adjust:96%;ascent-override:96%;descent-override:26%}
-@font-face{font-family:"Sans Fallback";src:local("Arial");size-adjust:102%;ascent-override:94%;descent-override:22%}
+@font-face{font-family:Jakarta;font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/jakarta-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Jakarta;font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/jakarta-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Jakarta Fallback";src:local("Arial");size-adjust:104%;ascent-override:96%;descent-override:22%;line-gap-override:0%}
 :root{
-  --ink:#16202b;--ink-2:#34404c;--mute:#5c6874;--line:#e1e5e9;--line-2:#cdd3d9;--soft:#f4f6f7;--white:#fff;
-  --acc:#1e5b46;--acc-h:#164636;--acc-t:#e9f1ed;
-  --gut:clamp(16px,4vw,64px);--max:1360px;
-  --serif:Newsreader,"Serif Fallback",Georgia,"Times New Roman",serif;
-  --sans:"Public Sans","Sans Fallback",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --ink:#17262e;--ink-2:#3b4a52;--mute:#5d6b72;--line:#e3e8ea;--soft:#f3f7f6;--tint:#e6f0ee;--white:#fff;
+  --teal:#0d5c58;--teal-h:#0a4945;--warm:#e0893a;--warm-t:#fbeedf;
+  --gut:clamp(16px,4vw,56px);--max:1280px;--r:16px;
+  --f:Jakarta,"Jakarta Fallback",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --hh:72px;
 }
 *,*::before,*::after{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:76px}
-body{margin:0;background:var(--white);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:calc(var(--hh) + 8px)}
+body{margin:0;background:var(--white);color:var(--ink);font-family:var(--f);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
 a{color:inherit}
 p{margin:0}
-h1,h2,h3{margin:0;text-wrap:balance;font-family:var(--serif);font-weight:500;letter-spacing:-.012em;line-height:1.12;color:var(--ink)}
-ul{margin:0;padding:0;list-style:none}
+h1,h2,h3{margin:0;font-weight:700;letter-spacing:-.022em;line-height:1.15;text-wrap:balance}
+ul,ol{margin:0;padding:0;list-style:none}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gut)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;height:52px;padding:0 24px;border-radius:4px;font:600 16px/1 var(--sans);text-decoration:none;border:1px solid transparent;cursor:pointer;white-space:nowrap;transition:background-color .2s,border-color .2s,color .2s}
-.btn svg{width:16px;height:16px;flex:none;transition:transform .2s}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;height:54px;padding:0 26px;border-radius:12px;font:700 16px/1 var(--f);text-decoration:none;border:1.5px solid transparent;cursor:pointer;white-space:nowrap;transition:background-color .2s,border-color .2s,transform .2s}
+.btn svg{width:18px;height:18px;flex:none;transition:transform .2s}
 .btn:hover svg{transform:translateX(3px)}
-.btn-acc{background:var(--acc);color:#fff}
-.btn-acc:hover{background:var(--acc-h)}
-.btn-line{border-color:var(--line-2);color:var(--ink);background:#fff}
-.btn-line:hover{border-color:var(--ink)}
-:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.btn:active{transform:scale(.98)}
+.btn-teal{background:var(--teal);color:#fff}
+.btn-teal:hover{background:var(--teal-h)}
+.btn-line{background:#fff;color:var(--ink);border-color:#cfd8db}
+.btn-line:hover{border-color:var(--teal)}
+:focus-visible{outline:2.5px solid var(--warm);outline-offset:3px}
+.ico{width:24px;height:24px;flex:none}
 
 /* header */
-.hdr{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.96);-webkit-backdrop-filter:saturate(1.4) blur(8px);backdrop-filter:saturate(1.4) blur(8px);transition:box-shadow .25s}
+.hdr{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.96);-webkit-backdrop-filter:saturate(1.5) blur(10px);backdrop-filter:saturate(1.5) blur(10px);transition:box-shadow .25s}
 .hdr.solid{box-shadow:0 1px 0 var(--line)}
-.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:20px;height:72px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
-.mark{width:34px;height:34px;flex:none;border-radius:3px;background:var(--acc);color:#fff;display:grid;place-items:center;font:500 22px/1 var(--serif);padding-bottom:2px}
-.brand-txt{font:600 21px/1.05 var(--serif);letter-spacing:-.01em;white-space:nowrap}
-.brand-txt small{display:block;font:400 13px/1.2 var(--sans);letter-spacing:0;color:var(--mute);margin-top:3px}
-.nav{display:flex;align-items:center;gap:clamp(18px,2.2vw,36px)}
-.nav a:not(.btn){font-size:16px;text-decoration:none;color:var(--ink-2);white-space:nowrap}
-.nav a:not(.btn):hover{color:var(--ink);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
-.nav .btn{height:46px;padding:0 20px;font-size:15px}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:20px;height:var(--hh)}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;min-width:0}
+.mark{width:38px;height:38px;flex:none}
+.brand-txt{font-weight:800;font-size:19px;line-height:1.05;letter-spacing:-.02em;white-space:nowrap}
+.brand-txt small{display:block;font-weight:500;font-size:12.5px;letter-spacing:0;color:var(--mute);margin-top:3px}
+.nav{display:flex;align-items:center;gap:clamp(18px,2.4vw,36px)}
+.nav a:not(.btn){font-size:16px;font-weight:500;text-decoration:none;color:var(--ink-2);white-space:nowrap}
+.nav a:not(.btn):hover{color:var(--teal)}
+.nav .btn{height:46px;padding:0 20px;font-size:15px;border-radius:10px}
 .menu-btn{display:none}
+main{padding-top:var(--hh)}
 
 /* hero */
-main{padding-top:72px}
-.hero{padding:clamp(28px,5vw,72px) 0 clamp(56px,7vw,104px)}
-@media (min-width:981px) and (min-height:640px){.hero{min-height:calc(100svh - 72px);display:flex;align-items:center;padding:40px 0 56px}.hero>.wrap{width:100%}}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(40px,6vw,104px);align-items:center}
-.hero h1{font-size:clamp(36px,4.3vw,66px);line-height:1.06;max-width:15ch}
-.lead{margin-top:clamp(18px,1.8vw,26px);font-size:clamp(17px,1.2vw,20px);line-height:1.6;color:var(--ink-2);max-width:36em}
-.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(24px,2.4vw,34px)}
-.contact-line{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:clamp(22px,2.2vw,32px);padding-top:18px;border-top:1px solid var(--line);font-size:16px;color:var(--ink-2);max-width:36em}
-.contact-line a,.contact-line span{display:inline-flex;align-items:center;gap:8px;text-decoration:none}
-.contact-line a:hover{text-decoration:underline;text-underline-offset:4px}
-.contact-line svg{width:17px;height:17px;flex:none;color:var(--acc)}
-.ph{color:var(--mute);border-bottom:1px dashed var(--line-2)}
-
-/* document */
-.doc-wrap{position:relative;padding:0 0 16px 16px}
-.doc-wrap::before{content:"";position:absolute;inset:16px 16px 0 0;background:var(--soft);border:1px solid var(--line);border-radius:6px}
-.doc{position:relative;background:#fff;border:1px solid var(--line-2);border-radius:6px;box-shadow:0 1px 2px rgba(22,32,43,.05),0 18px 40px -18px rgba(22,32,43,.18);padding:clamp(20px,2vw,30px);font-size:14px;line-height:1.45}
-.doc-top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:14px;border-bottom:2px solid var(--ink)}
-.doc-title{font:500 clamp(19px,1.5vw,23px)/1.15 var(--serif)}
-.doc-top span{color:var(--mute);white-space:nowrap}
-.doc-meta{display:flex;justify-content:space-between;gap:12px;padding:10px 0 4px;color:var(--mute);font-size:13px}
-.doc table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;margin-top:6px}
-.doc th{font-weight:500;color:var(--mute);font-size:12.5px;text-align:right;padding:8px 0 8px 10px;border-bottom:1px solid var(--line)}
-.doc th:first-child,.doc td:first-child{text-align:left;padding-left:0}
-.doc td{text-align:right;padding:10px 0 10px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
-.doc td small{display:block;color:var(--mute);font-size:12px}
-.doc tfoot td{font-weight:600;border-bottom:0;padding-top:12px}
-.doc td.net{color:var(--acc);font-weight:600}
-.doc-checks{margin-top:14px;padding-top:14px;border-top:1px dashed var(--line-2);display:grid;gap:7px}
-.doc-checks li{display:flex;align-items:center;gap:10px}
-.doc-checks li b{font-weight:500;margin-left:auto;color:var(--ink-2);white-space:nowrap}
-.doc-checks svg{width:16px;height:16px;flex:none;color:var(--acc)}
-.doc-checks .todo svg{color:var(--line-2)}
-.doc-note{margin-top:12px;font-size:12.5px;color:var(--mute)}
+.hero{padding:clamp(32px,4.5vw,64px) 0}
+.hero-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:clamp(40px,5.5vw,88px);align-items:center}
+.hero h1{font-size:clamp(38px,4.4vw,64px);line-height:1.08;letter-spacing:-.03em;max-width:12ch}
+.lead{margin-top:clamp(16px,1.6vw,24px);font-size:clamp(17px,1.25vw,20px);color:var(--ink-2);max-width:30em}
+.hero .btn{margin-top:clamp(24px,2.4vw,34px)}
+.reach{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin-top:18px;font-size:15.5px;color:var(--ink-2)}
+.reach a{font-weight:600;text-decoration:none}
+.reach a:hover{color:var(--teal);text-decoration:underline;text-underline-offset:3px}
+.reach .sep{width:4px;height:4px;border-radius:50%;background:#b6c1c5}
+.ph{color:var(--mute);font-weight:500;border-bottom:1.5px dashed #c3cdd0}
+.hero-photo{position:relative;border-radius:22px;overflow:hidden;aspect-ratio:1.12;background:var(--tint)}
+.hero-photo picture{display:block;height:100%}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:52% 42%}
+.badge{position:absolute;left:20px;bottom:20px;right:auto;max-width:calc(100% - 40px);display:flex;align-items:center;gap:14px;background:#fff;border-radius:14px;padding:14px 18px 14px 14px;box-shadow:0 12px 30px -12px rgba(23,38,46,.35)}
+.badge-ico{width:44px;height:44px;border-radius:11px;background:var(--warm-t);color:#a65a17;display:grid;place-items:center;flex:none}
+.badge-ico svg{width:24px;height:24px}
+.badge b{display:block;font-size:15.5px;line-height:1.3}
+.badge span{display:block;font-size:14px;color:var(--mute);line-height:1.35}
 
 /* sections */
-.sec{padding:clamp(64px,8vw,120px) 0;border-top:1px solid var(--line)}
-.sec-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,96px);align-items:end;margin-bottom:clamp(36px,4.5vw,64px)}
-.sec h2{font-size:clamp(30px,3.1vw,48px)}
-.sec-head p{color:var(--ink-2);font-size:clamp(17px,1.1vw,19px);max-width:34em}
+.sec{padding:clamp(64px,8vw,112px) 0}
+.sec-soft{background:var(--soft)}
+.sec-h{max-width:640px;margin-bottom:clamp(32px,4vw,52px)}
+.sec h2{font-size:clamp(30px,3vw,44px)}
+.sec-h p{margin-top:14px;color:var(--ink-2);font-size:clamp(17px,1.15vw,19px)}
 
-.svc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(32px,5vw,96px)}
-.svc h3{font-size:clamp(24px,2vw,30px);padding-bottom:16px;border-bottom:2px solid var(--ink)}
-.svc p.intro{margin:18px 0 6px;color:var(--ink-2)}
-.svc li{padding:13px 0 13px 28px;border-bottom:1px solid var(--line);position:relative}
-.svc li::before{content:"";position:absolute;left:2px;top:23px;width:12px;height:1.5px;background:var(--acc)}
-.svc-extra{margin-top:clamp(36px,4vw,56px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(24px,5vw,96px);padding:clamp(24px,2.6vw,36px) 0 0;border-top:1px solid var(--line)}
-.svc-extra h3{font-size:clamp(22px,1.7vw,26px)}
-.svc-extra p{color:var(--ink-2);max-width:44em}
+/* services */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,2vw,28px)}
+.card{background:#fff;border-radius:var(--r);overflow:hidden;box-shadow:0 1px 2px rgba(23,38,46,.06),0 10px 30px -18px rgba(23,38,46,.25);display:flex;flex-direction:column}
+.card picture img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.card-b{padding:22px 24px 26px;display:flex;flex-direction:column;gap:12px;flex:1}
+.card-t{display:flex;align-items:center;gap:12px}
+.card-t span{width:42px;height:42px;border-radius:11px;background:var(--tint);color:var(--teal);display:grid;place-items:center;flex:none}
+.card h3{font-size:21px}
+.card p{color:var(--ink-2);font-size:16px}
+.card ul{display:grid;gap:7px;font-size:15.5px;color:var(--ink-2);margin-top:2px}
+.card li{display:flex;gap:10px;align-items:flex-start}
+.card li svg{width:18px;height:18px;flex:none;color:var(--teal);margin-top:3px}
 
 /* deadlines */
-.sec-soft{background:var(--soft);border-top:0}
-.month{position:relative;margin-top:8px;padding-top:4px}
-.ruler{display:grid;grid-template-columns:repeat(31,minmax(0,1fr));align-items:end;height:34px;border-bottom:1.5px solid var(--ink)}
-.ruler i{display:block;justify-self:center;width:1px;height:10px;background:var(--line-2)}
-.ruler i:nth-child(5n){height:16px;background:var(--mute)}
-.ruler i.on{width:3px;height:34px;background:var(--acc)}
-.days{display:grid;grid-template-columns:repeat(31,minmax(0,1fr));font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums;margin-top:6px}
-.days span{text-align:center}
-.days span:not(.d){visibility:hidden}
-.dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,48px);margin-top:clamp(28px,3vw,40px)}
-.dl li{border-top:1px solid var(--line-2);padding-top:16px}
-.dl h3{font-size:clamp(22px,1.7vw,27px)}
-.dl p{margin-top:8px;color:var(--ink-2)}
-.dl-note{margin-top:clamp(28px,3vw,40px);color:var(--mute);font-size:15px;max-width:52em}
+.dates{margin-top:clamp(28px,3vw,40px);background:var(--tint);border-radius:var(--r);padding:clamp(20px,2.4vw,30px) clamp(20px,2.6vw,34px);display:grid;grid-template-columns:minmax(0,1.45fr) repeat(3,minmax(0,1fr));gap:18px clamp(20px,2.6vw,40px);align-items:center}
+.dates-h{display:flex;gap:14px;align-items:center}
+.dates-h span{width:46px;height:46px;border-radius:12px;background:#fff;color:var(--teal);display:grid;place-items:center;flex:none}
+.dates-h b{font-size:18px;line-height:1.3}
+.dates-h small{display:block;font-size:14.5px;color:var(--ink-2);font-weight:400}
+.date{border-left:2px solid rgba(13,92,88,.25);padding-left:16px}
+.date b{display:block;font-size:17px;color:var(--teal)}
+.date span{font-size:15px;color:var(--ink-2);line-height:1.45;display:block}
 
-/* about */
-.about{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(36px,6vw,110px);align-items:start}
-.about h2{margin-bottom:clamp(20px,2vw,28px)}
-.about-txt p{color:var(--ink-2);font-size:clamp(17px,1.1vw,19px);max-width:38em}
-.about-txt p+p{margin-top:1em}
-.start{margin-top:clamp(32px,3.5vw,48px)}
-.start h3{font-size:clamp(22px,1.7vw,26px);margin-bottom:12px}
-.start ol{margin:0;padding-left:1.25em;color:var(--ink-2);max-width:38em}
-.start li{padding:6px 0 6px 4px}
-.start li::marker{color:var(--acc);font-weight:600}
-.facts{border-top:2px solid var(--ink);font-size:16px}
-.facts h3{font-size:22px;padding:18px 0 6px}
-.facts dl{margin:0}
-.facts div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
-.facts dt{color:var(--mute)}
-.facts dd{margin:0;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+/* why */
+.why{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(36px,5.5vw,88px);align-items:center}
+.why-photo{border-radius:22px;overflow:hidden;aspect-ratio:1.05}
+.why-photo img{width:100%;height:100%;object-fit:cover;object-position:40% 50%}
+.why h2{margin-bottom:clamp(24px,2.6vw,34px)}
+.points{display:grid;gap:clamp(20px,2.2vw,28px)}
+.points li{display:flex;gap:16px;align-items:flex-start}
+.points li>span{width:48px;height:48px;border-radius:12px;background:var(--tint);color:var(--teal);display:grid;place-items:center;flex:none}
+.points h3{font-size:19px;margin-bottom:4px}
+.points p{color:var(--ink-2);font-size:16px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,2vw,28px)}
+.step{background:#fff;border-radius:var(--r);padding:26px 26px 28px;box-shadow:0 1px 2px rgba(23,38,46,.06)}
+.step span{width:48px;height:48px;border-radius:12px;background:var(--warm-t);color:#a65a17;display:grid;place-items:center;margin-bottom:16px}
+.step h3{font-size:19px;margin-bottom:6px}
+.step p{color:var(--ink-2);font-size:16px}
 
 /* contact */
-.contact{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(36px,6vw,110px);align-items:start}
-.contact-info p{color:var(--ink-2);margin-top:18px;max-width:30em;font-size:clamp(17px,1.1vw,19px)}
-.c-list{margin-top:28px;border-top:1px solid var(--line)}
-.c-list li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line)}
-.c-list svg{width:20px;height:20px;flex:none;color:var(--acc);margin-top:3px}
-.c-list a{text-decoration:none}
-.c-list a:hover{text-decoration:underline;text-underline-offset:4px}
-.c-list small{display:block;color:var(--mute);font-size:14px}
-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 20px}
+.contact{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(36px,5.5vw,88px);align-items:start}
+.contact-info p{margin-top:14px;color:var(--ink-2);font-size:clamp(17px,1.15vw,19px);max-width:28em}
+.c-list{margin-top:28px;display:grid;gap:12px}
+.c-list li{display:flex;gap:14px;align-items:center;background:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 1px 2px rgba(23,38,46,.06)}
+.c-list li>span{width:42px;height:42px;border-radius:11px;background:var(--tint);color:var(--teal);display:grid;place-items:center;flex:none}
+.c-list a{font-weight:600;text-decoration:none}
+.c-list a:hover{color:var(--teal);text-decoration:underline}
+.c-list small{display:block;color:var(--mute);font-size:14px;line-height:1.3}
+.c-list div{min-width:0;overflow-wrap:anywhere;line-height:1.4}
+.form-card{background:#fff;border-radius:20px;padding:clamp(22px,3vw,40px);box-shadow:0 1px 2px rgba(23,38,46,.06),0 18px 40px -24px rgba(23,38,46,.3)}
+form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 18px}
 .f{display:flex;flex-direction:column;gap:7px;min-width:0}
 .f.full{grid-column:1/-1}
-label,.lbl{font-size:15px;font-weight:500}
-input,select,textarea{font:16px/1.4 var(--sans);color:var(--ink);background:#fff;border:1px solid var(--line-2);border-radius:4px;padding:13px 14px;width:100%;min-width:0}
-textarea{min-height:120px;resize:vertical}
-input:focus,select:focus,textarea:focus{outline:2px solid var(--acc);outline-offset:0;border-color:var(--acc)}
+label,.lbl{font-size:15px;font-weight:600}
+input,select,textarea{font:16px/1.4 var(--f);color:var(--ink);background:#fff;border:1.5px solid #d3dbde;border-radius:10px;padding:13px 14px;width:100%;min-width:0}
+textarea{min-height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(13,92,88,.15)}
 .chips{display:flex;flex-wrap:wrap;gap:10px}
-.chips label{display:inline-flex;align-items:center;gap:9px;font-weight:400;border:1px solid var(--line-2);border-radius:4px;padding:11px 14px;cursor:pointer}
-.chips input{width:18px;height:18px;margin:0;accent-color:var(--acc)}
-.f-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px}
-.f-foot small{color:var(--mute);font-size:14px;max-width:34em}
-.sent-msg{display:none;grid-column:1/-1;padding:16px 18px;background:var(--acc-t);border-radius:4px;color:var(--acc-h)}
+.chips label{display:inline-flex;align-items:center;gap:9px;font-weight:500;border:1.5px solid #d3dbde;border-radius:10px;padding:10px 14px;cursor:pointer}
+.chips input{width:18px;height:18px;margin:0;accent-color:var(--teal)}
+.f-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px}
+.f-foot small{color:var(--mute);font-size:14px;max-width:30em}
+.sent-msg{display:none;grid-column:1/-1;padding:14px 16px;background:var(--tint);border-radius:10px;color:var(--teal-h);font-weight:500}
 form.sent .sent-msg{display:block}
 
 /* footer */
-.ftr{border-top:1px solid var(--line);padding:36px 0 40px;font-size:14.5px;color:var(--mute)}
-.ftr-in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px 32px}
-.ftr strong{color:var(--ink);font-weight:600}
-.ftr a{text-decoration:none}
-.ftr a:hover{text-decoration:underline}
-.made{font-size:13px}
+.ftr{padding:30px 0 34px;font-size:14.5px;color:var(--mute);border-top:1px solid var(--line)}
+.ftr-in{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 28px}
+.ftr strong{color:var(--ink);font-weight:700}
+.made{font-size:13px;text-decoration:none;color:var(--mute)}
+.made:hover{text-decoration:underline}
 
-/* mobile bar */
 .mbar{display:none}
 
-@media (max-width:1180px){
-  .nav a.opt{display:none}
+@media (max-width:1100px){
+  .dates{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .dates-h{grid-column:1/-1}
 }
 @media (max-width:980px){
-  .hero-grid,.sec-head,.svc,.svc-extra,.about,.contact{grid-template-columns:minmax(0,1fr)}
-  .hero h1{max-width:18ch}
-  .doc-wrap{max-width:560px}
-  .sec-head{align-items:start}
-  .dl{grid-template-columns:minmax(0,1fr)}
+  .cards,.steps{grid-template-columns:minmax(0,1fr)}
+  .cards{max-width:620px}
+  .card{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1fr)}
+  .card picture img{height:100%;aspect-ratio:auto}
+  .why,.contact{grid-template-columns:minmax(0,1fr)}
+  .why-photo{aspect-ratio:1.6;max-width:620px}
 }
-@media (max-width:860px){
+@media (max-width:899px){
+  :root{--hh:62px}
   .nav{display:none}
-  .menu-btn{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 14px;border:1px solid var(--line-2);border-radius:4px;background:#fff;font:500 15px/1 var(--sans);color:var(--ink);cursor:pointer}
+  .menu-btn{display:inline-flex;align-items:center;gap:8px;height:44px;padding:0 14px;border:1.5px solid #d3dbde;border-radius:10px;background:#fff;font:600 15px/1 var(--f);color:var(--ink);cursor:pointer}
   .menu-btn svg{width:18px;height:18px}
-  .hdr.open .nav{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;padding:6px var(--gut) 18px;box-shadow:0 1px 0 var(--line),0 16px 30px -18px rgba(0,0,0,.25)}
+  .hdr.open .nav{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;padding:4px var(--gut) 18px;box-shadow:0 1px 0 var(--line),0 18px 30px -18px rgba(0,0,0,.25)}
   .hdr.open .nav a:not(.btn){padding:14px 0;border-bottom:1px solid var(--line);font-size:17px}
-  .hdr.open .nav a.opt{display:block}
-  .hdr.open .nav .btn{margin-top:14px;height:50px}
+  .hdr.open .nav .btn{margin-top:14px;height:52px}
+  .mark{width:34px;height:34px}
+  .brand-txt{font-size:18px}
+  .brand-txt small{font-size:12px}
+  /* hero fills exactly one screen */
+  .hero{padding:0 0 22px;min-height:calc(100svh - var(--hh));display:flex}
+  .hero-grid{display:flex;flex-direction:column-reverse;align-items:stretch;gap:0;width:100%;padding:0}
+  .hero-photo{flex:1 1 auto;min-height:170px;aspect-ratio:auto;border-radius:0 0 22px 22px;margin:0}
+  .hero-photo picture{position:absolute;inset:0;display:block}
+  .hero-photo img{object-position:42% 32%}
+  .badge{display:none}
+  .hero-txt{padding:22px var(--gut) 0;flex:none}
+  .hero h1{font-size:clamp(30px,8.2vw,40px);max-width:13ch}
+  .lead{font-size:16.5px;margin-top:10px;line-height:1.5}
+  .hero .btn{margin-top:18px;width:100%}
+  .reach{margin-top:14px;font-size:15px;justify-content:center}
   .mbar{display:flex;position:fixed;z-index:40;left:0;right:0;bottom:0;gap:10px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);box-shadow:0 -1px 0 var(--line);transform:translateY(110%);transition:transform .3s cubic-bezier(.2,.7,.2,1)}
   .mbar.show{transform:none}
   .mbar .btn{flex:1;height:48px;padding:0 12px;font-size:15px}
-  .ftr{padding-bottom:96px}
+  .ftr{padding-bottom:92px}
 }
 @media (max-width:600px){
   body{font-size:16.5px}
-  .hdr-in{height:62px}
-  main{padding-top:62px}
-  .mark{width:30px;height:30px;font-size:20px}
-  .brand-txt{font-size:19px}
-  .brand-txt small{font-size:12px}
-  .hero{padding-top:20px}
-  .hero h1{font-size:clamp(31px,8.6vw,36px)}
-  .lead{font-size:16.5px;margin-top:14px}
-  .cta-row{margin-top:20px}
-  .cta-row .btn{flex:1 1 100%}
-  .contact-line{flex-direction:column;margin-top:18px;padding-top:14px;font-size:15.5px}
-  .doc{font-size:13px;padding:16px}
-  .doc-wrap{padding:0 0 10px 10px}
-  .doc-wrap::before{inset:10px 10px 0 0}
-  .doc-title{font-size:18px;white-space:nowrap}
-  .doc th{font-size:11.5px;padding-left:6px}
-  .doc td{padding-left:6px}
-  .doc .hide-s{display:none}
-  .ruler,.days{display:none}
-  .dl li{padding-top:14px}
+  .card{display:flex}
+  .card picture img{aspect-ratio:16/9;height:auto}
+  .dates{grid-template-columns:minmax(0,1fr);gap:14px}
+  .date{border-left:0;border-top:1px solid rgba(13,92,88,.18);padding:12px 0 0;display:flex;gap:14px;align-items:baseline}
+  .date b{flex:0 0 78px}
+  .why-photo{aspect-ratio:1.4}
   form{grid-template-columns:minmax(0,1fr)}
-  .facts div{grid-template-columns:90px minmax(0,1fr)}
-}
-@media (max-width:370px){
-  .hero h1{font-size:29px}
   .menu-btn span{display:none}
+  .menu-btn{width:44px;justify-content:center;padding:0}
 }
-@media (max-height:700px) and (max-width:600px){
-  .hero{padding-top:14px}
+@media (max-width:899px) and (max-height:700px){
+  .hero-txt{padding-top:16px}
   .hero h1{font-size:28px}
-  .lead{font-size:15.5px;line-height:1.5}
-  .cta-row .btn{height:48px}
+  .lead{font-size:15.5px}
+  .hero .btn{margin-top:14px;height:50px}
+  .reach{margin-top:10px}
+  .hero{padding-bottom:16px}
 }
-@media (min-width:1800px){
-  :root{--max:1520px}
+@media (min-width:900px) and (min-height:640px){
+  .hero{min-height:calc(100svh - var(--hh));display:flex;align-items:center}
+  .hero>.wrap{width:100%}
+  .hero-photo{aspect-ratio:1.18;max-height:calc(100svh - var(--hh) - 96px)}
+}
+@media (min-width:1700px){
+  :root{--max:1440px}
   body{font-size:18px}
+  .hero-photo{max-height:min(760px,calc(100svh - var(--hh) - 110px))}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 20 20"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 20 20"><path d="m4.5 10.5 3.5 3.5 7.5-8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><circle cx="17" cy="9" r="2.5"/><path d="M15.8 14.2c2.3.2 4 1.8 4.6 4.3"/></g></symbol>
+  <symbol id="i-calc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8.5 7h7M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01M8.5 15h.01M12 15h.01M15.5 15v2.5M8.5 18h.01M12 18h.01"/></g></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v5.5c0 4.4 3 8 7 9.5 4-1.5 7-5.1 7-9.5V6z"/><path d="m9 12 2.2 2.2L15.5 10"/></g></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4M8 14h2M14 14h2M8 17h2"/></g></symbol>
+  <symbol id="i-team" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7.5" r="2.8"/><circle cx="5.5" cy="10" r="2.2"/><circle cx="18.5" cy="10" r="2.2"/><path d="M7.5 19c.5-2.9 2.3-4.6 4.5-4.6s4 1.7 4.5 4.6M2.5 18c.3-1.9 1.4-3.1 3-3.3M21.5 18c-.3-1.9-1.4-3.1-3-3.3"/></g></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+  <symbol id="i-screen" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12.5" rx="2"/><path d="M8.5 20.5h7M12 16.5v4M7 12l3-3 2.5 2.5L17 7"/></g></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3.5h3.2l1.8 4.6-2.3 1.4a11.5 11.5 0 0 0 5.8 5.8l1.4-2.3 4.6 1.8V18a2.5 2.5 0 0 1-2.5 2.5A15.5 15.5 0 0 1 3.5 6 2.5 2.5 0 0 1 6 3.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7.5 8 5.5 8-5.5"/></g></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></g></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5h3.5l3.2-1.6a2 2 0 0 1 1.8 0l3.3 1.7a1.4 1.4 0 0 1-1.3 2.5L12 14"/><path d="M7.5 18.5H11l6.4-3.1a1.6 1.6 0 0 0-1.3-2.9"/><path d="M4 11v9"/></g></symbol>
+</svg>
 
 <header class="hdr" id="hdr">
   <div class="wrap hdr-in">
     <a class="brand" href="#top">
-      <span class="mark" aria-hidden="true">§</span>
+      <svg class="mark" viewBox="0 0 38 38" aria-hidden="true"><rect width="38" height="38" rx="10" fill="#0d5c58"/><path d="M12.5 10v18M12.5 19.5 23 10M16.5 16l7 12" stroke="#fff" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="27.5" cy="27" r="2.6" fill="#e0893a"/></svg>
       <span class="brand-txt">Kodeks P<small>kadry, płace, księgowość</small></span>
     </a>
     <nav class="nav" id="nav" aria-label="Menu główne">
       <a href="#uslugi">Usługi</a>
-      <a href="#terminy" class="opt">Terminy</a>
-      <a href="#o-nas">O nas</a>
+      <a href="#dlaczego">Dlaczego my</a>
+      <a href="#wspolpraca">Współpraca</a>
       <a href="#kontakt">Kontakt</a>
-      <a class="btn btn-acc" href="#kontakt">Zapytaj o wycenę</a>
+      <a class="btn btn-teal" href="#kontakt">Zapytaj o wycenę</a>
     </nav>
-    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav"><span>Menu</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span>Menu</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
   </div>
 </header>
 
 <main id="top">
 <section class="hero">
   <div class="wrap hero-grid">
+    <div class="hero-txt">
+      <h1>Kadry, płace i księgowość bez stresu</h1>
+      <p class="lead">Biuro z Tomaszkowa pod Olsztynem przejmie od Państwa listy płac, ZUS, podatki i dokumenty pracownicze.</p>
+      <a class="btn btn-teal" href="#kontakt">Zapytaj o wycenę <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <p class="reach"><a href="mailto:wunderlich.a@wp.pl">wunderlich.a@wp.pl</a><span class="sep" aria-hidden="true"></span><span>tel. <span class="ph">tu Państwa numer</span></span></p>
+    </div>
+    <div class="hero-photo">
+      <picture>
+        <source type="image/avif" srcset="img/hero-640.avif 640w, img/hero-960.avif 960w, img/hero-1400.avif 1400w, img/hero-1920.avif 1920w" sizes="(max-width:899px) 100vw, 48vw">
+        <img src="img/hero-960.webp" srcset="img/hero-640.webp 640w, img/hero-960.webp 960w, img/hero-1400.webp 1400w, img/hero-1920.webp 1920w" sizes="(max-width:899px) 100vw, 48vw" alt="Księgowa omawia dokumenty z właścicielem firmy przy biurku" width="1400" height="1166" fetchpriority="high">
+      </picture>
+      <div class="badge">
+        <span class="badge-ico"><svg aria-hidden="true"><use href="#i-team"/></svg></span>
+        <div><b>Zespół trzech specjalistów</b><span>ponad 10 lat w kadrach i płacach</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-soft" id="uslugi">
+  <div class="wrap">
+    <div class="sec-h">
+      <h2>W czym pomagamy</h2>
+      <p>Można powierzyć nam same kadry i płace albo całą obsługę firmy. Zakres dobieramy do liczby pracowników i formy działalności.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <picture><source type="image/avif" srcset="img/kadry-480.avif 480w, img/kadry-720.avif 720w, img/kadry-1000.avif 1000w" sizes="(max-width:600px) 100vw, (max-width:980px) 260px, 400px"><img src="img/kadry-720.webp" srcset="img/kadry-480.webp 480w, img/kadry-720.webp 720w, img/kadry-1000.webp 1000w" sizes="(max-width:600px) 100vw, (max-width:980px) 260px, 400px" alt="Podpisywanie umowy przy stole" width="720" height="480" loading="lazy" decoding="async"></picture>
+        <div class="card-b">
+          <div class="card-t"><span><svg class="ico" aria-hidden="true"><use href="#i-people"/></svg></span><h3>Kadry i płace</h3></div>
+          <p>Od zatrudnienia pracownika do świadectwa pracy.</p>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Listy płac i paski dla pracowników</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Umowy, akta osobowe, urlopy</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>ZUS, PIT-4R i PIT-11, PPK</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card">
+        <picture><source type="image/avif" srcset="img/ksiegowosc-480.avif 480w, img/ksiegowosc-720.avif 720w, img/ksiegowosc-1000.avif 1000w" sizes="(max-width:600px) 100vw, (max-width:980px) 260px, 400px"><img src="img/ksiegowosc-720.webp" srcset="img/ksiegowosc-480.webp 480w, img/ksiegowosc-720.webp 720w, img/ksiegowosc-1000.webp 1000w" sizes="(max-width:600px) 100vw, (max-width:980px) 260px, 400px" alt="Księgowa pracuje przy laptopie" width="720" height="480" loading="lazy" decoding="async"></picture>
+        <div class="card-b">
+          <div class="card-t"><span><svg class="ico" aria-hidden="true"><use href="#i-calc"/></svg></span><h3>Księgowość</h3></div>
+          <p>Ewidencje i rozliczenia podatkowe w terminie.</p>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Księgi rachunkowe spółek, KPiR, ryczałt</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>VAT, pliki JPK, faktury w KSeF</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Deklaracje roczne i sprawozdania</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card">
+        <picture><source type="image/avif" srcset="img/kontrole-480.avif 480w, img/kontrole-720.avif 720w, img/kontrole-1000.avif 1000w" sizes="(max-width:600px) 100vw, (max-width:980px) 260px, 400px"><img src="img/kontrole-720.webp" srcset="img/kontrole-480.webp 480w, img/kontrole-720.webp 720w, img/kontrole-1000.webp 1000w" sizes="(max-width:600px) 100vw, (max-width:980px) 260px, 400px" alt="Doradca omawia dokumenty z klientką przy laptopie" width="720" height="480" loading="lazy" decoding="async"></picture>
+        <div class="card-b">
+          <div class="card-t"><span><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></span><h3>Kontrole i pisma z urzędów</h3></div>
+          <p>Kontrola ZUS, inspekcja pracy czy pismo z urzędu skarbowego - przygotujemy dokumenty i odpowiedzi.</p>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Przygotowanie do kontroli</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Odpowiedzi na wezwania i pisma</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <div class="dates">
+      <div class="dates-h"><span><svg class="ico" aria-hidden="true"><use href="#i-cal"/></svg></span><b>Terminy w miesiącu pilnujemy za Państwa<small>przypominamy wcześniej o potrzebnych dokumentach</small></b></div>
+      <div class="date"><b>do 15.</b><span>składki ZUS spółek i wpłaty do PPK</span></div>
+      <div class="date"><b>do 20.</b><span>zaliczki PIT pracowników, ZUS pozostałych firm</span></div>
+      <div class="date"><b>do 25.</b><span>VAT i plik JPK_V7</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="dlaczego">
+  <div class="wrap why">
+    <div class="why-photo">
+      <picture><source type="image/avif" srcset="img/zespol-640.avif 640w, img/zespol-960.avif 960w, img/zespol-1400.avif 1400w" sizes="(max-width:980px) 100vw, 50vw"><img src="img/zespol-960.webp" srcset="img/zespol-640.webp 640w, img/zespol-960.webp 960w, img/zespol-1400.webp 1400w" sizes="(max-width:980px) 100vw, 50vw" alt="Rozmowa z klientką przy stole w biurze" width="960" height="826" loading="lazy" decoding="async"></picture>
+    </div>
     <div>
-      <h1>Kadry, płace i księgowość dla firm z Olsztyna i okolic</h1>
-      <p class="lead">Przygotowujemy listy płac, prowadzimy dokumentację pracowniczą, rozliczamy ZUS i podatki oraz księgowość firm. Zespół trzech specjalistów z ponad 10-letnim doświadczeniem w kadrach i płacach.</p>
-      <div class="cta-row">
-        <a class="btn btn-acc" href="#kontakt">Zapytaj o wycenę <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
-        <a class="btn btn-line" href="#uslugi">Zakres usług</a>
-      </div>
-      <div class="contact-line">
-        <a href="mailto:wunderlich.a@wp.pl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>wunderlich.a@wp.pl</a>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span class="ph">tu Państwa numer</span></span>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Tomaszkowo, gm. Stawiguda</span>
-      </div>
-    </div>
-
-    <div class="doc-wrap" aria-label="Przykładowa lista płac">
-      <div class="doc">
-        <div class="doc-top"><p class="doc-title">Lista płac nr 10/2026</p><span>październik 2026</span></div>
-        <div class="doc-meta"><span>Przykładowa firma sp. z o.o.</span><span>wypłata 10.11.2026</span></div>
-        <table>
-          <thead><tr><th>Pracownik</th><th>Brutto</th><th class="hide-s">Składki</th><th>PIT</th><th>Do wypłaty</th></tr></thead>
-          <tbody>
-            <tr><td>Pracownik A<small>umowa o pracę</small></td><td>4 806,00</td><td class="hide-s">1 032,15</td><td>168,00</td><td class="net">3 605,85</td></tr>
-            <tr><td>Pracownik B<small>umowa o pracę</small></td><td>6 200,00</td><td class="hide-s">1 331,52</td><td>312,00</td><td class="net">4 556,48</td></tr>
-            <tr><td>Pracownik C<small>umowa o pracę</small></td><td>7 450,00</td><td class="hide-s">1 599,97</td><td>441,00</td><td class="net">5 409,03</td></tr>
-          </tbody>
-          <tfoot><tr><td>Razem</td><td>18 456,00</td><td class="hide-s">3 963,64</td><td>921,00</td><td class="net">13 571,36</td></tr></tfoot>
-        </table>
-        <ul class="doc-checks">
-          <li><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m3 8.5 3 3 7-7"/></svg>Paski płacowe wysłane pracownikom<b>04.11</b></li>
-          <li class="todo"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg>Deklaracja i składki ZUS<b>do 15.11</b></li>
-          <li class="todo"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg>Zaliczki PIT pracowników<b>do 20.11</b></li>
-        </ul>
-        <p class="doc-note">Przykład obliczony dla stawek 2026, kwoty w zł.</p>
-      </div>
+      <h2>Dlaczego warto nam powierzyć kadry i księgowość</h2>
+      <ul class="points">
+        <li><span><svg class="ico" aria-hidden="true"><use href="#i-team"/></svg></span><div><h3>Zespół trzech specjalistów</h3><p>Każdą firmę prowadzimy indywidualnie, z jedną osobą do kontaktu.</p></div></li>
+        <li><span><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg></span><div><h3>Ponad 10 lat w kadrach i płacach</h3><p>Sprawy pracownicze i rozliczenia nie są dla nas niczym nowym.</p></div></li>
+        <li><span><svg class="ico" aria-hidden="true"><use href="#i-screen"/></svg></span><div><h3>Nowoczesny system kadrowo-płacowy</h3><p>Dokładniejsza praca i niższy koszt obsługi dla Państwa firmy.</p></div></li>
+        <li><span><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></span><div><h3>Spokojnie przez kontrole</h3><p>Z kontrolami i sprawami pracowniczymi radzimy sobie sprawnie, bez nerwów po Państwa stronie.</p></div></li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section class="sec" id="uslugi">
+<section class="sec sec-soft" id="wspolpraca">
   <div class="wrap">
-    <div class="sec-head">
-      <h2>Co dla Państwa prowadzimy</h2>
-      <p>Można powierzyć nam same kadry i płace albo całą obsługę firmy. Zakres i cenę ustalamy po rozmowie, zależnie od liczby pracowników i formy prowadzenia firmy.</p>
+    <div class="sec-h">
+      <h2>Jak zaczynamy współpracę</h2>
+      <p>Zmiana biura albo pierwsze biuro w firmie - przejście jest prostsze, niż się wydaje.</p>
     </div>
-    <div class="svc">
-      <div>
-        <h3>Kadry i płace</h3>
-        <p class="intro">Od zatrudnienia pracownika do świadectwa pracy.</p>
-        <ul>
-          <li>Listy płac, paski płacowe i przelewy wynagrodzeń</li>
-          <li>Umowy o pracę, zlecenia i o dzieło</li>
-          <li>Zgłoszenia i rozliczenia ZUS, PIT-4R i PIT-11</li>
-          <li>Akta osobowe, urlopy, ewidencja czasu pracy</li>
-          <li>PPK, PFRON, zaświadczenia i świadectwa pracy</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Księgowość</h3>
-        <p class="intro">Ewidencje i rozliczenia podatkowe w terminie.</p>
-        <ul>
-          <li>Księgi rachunkowe spółek</li>
-          <li>Podatkowa księga przychodów i rozchodów, ryczałt</li>
-          <li>VAT, pliki JPK i faktury w KSeF</li>
-          <li>Deklaracje roczne i sprawozdania finansowe</li>
-          <li>Doradztwo podatkowe przy bieżących decyzjach</li>
-        </ul>
-      </div>
-    </div>
-    <div class="svc-extra">
-      <h3>Kontrole i pisma z urzędów</h3>
-      <p>Przy kontroli ZUS, inspekcji pracy czy urzędu skarbowego przygotowujemy dokumenty i odpowiadamy na pytania kontrolujących. Pisma z urzędów wystarczy nam przekazać.</p>
-    </div>
+    <ol class="steps">
+      <li class="step"><span><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg></span><h3>Krótka rozmowa</h3><p>Mówią Państwo, ilu jest pracowników, jaka jest forma firmy i czego dotyczy obsługa.</p></li>
+      <li class="step"><span><svg class="ico" aria-hidden="true"><use href="#i-doc"/></svg></span><h3>Wycena i umowa</h3><p>Przygotowujemy wycenę dopasowaną do Państwa firmy i umowę o współpracy.</p></li>
+      <li class="step"><span><svg class="ico" aria-hidden="true"><use href="#i-hand"/></svg></span><h3>Przejęcie dokumentów</h3><p>Odbieramy dokumenty, także od poprzedniego biura, i prowadzimy rozliczenia od kolejnego miesiąca.</p></li>
+    </ol>
   </div>
 </section>
 
-<section class="sec sec-soft" id="terminy">
-  <div class="wrap">
-    <div class="sec-head">
-      <h2>Terminy w miesiącu pilnujemy my</h2>
-      <p>Każdego miesiąca te same daty, a za spóźnienie odsetki i pytania z urzędu. U nas są w kalendarzu, nie na Państwa głowie.</p>
-    </div>
-    <div class="month" aria-hidden="true">
-      <div class="ruler"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-      <div class="days"><span class="d">1</span><span>2</span><span>3</span><span>4</span><span class="d">5</span><span>6</span><span>7</span><span>8</span><span>9</span><span class="d">10</span><span>11</span><span>12</span><span>13</span><span>14</span><span class="d">15</span><span>16</span><span>17</span><span>18</span><span>19</span><span class="d">20</span><span>21</span><span>22</span><span>23</span><span>24</span><span class="d">25</span><span>26</span><span>27</span><span>28</span><span>29</span><span class="d">30</span><span>31</span></div>
-    </div>
-    <ul class="dl">
-      <li><h3>Do 15. dnia</h3><p>Składki ZUS spółek i wpłaty do PPK za poprzedni miesiąc.</p></li>
-      <li><h3>Do 20. dnia</h3><p>Zaliczki PIT pobrane od pracowników, składki ZUS pozostałych firm, wpłaty na PFRON.</p></li>
-      <li><h3>Do 25. dnia</h3><p>Rozliczenie VAT i plik JPK_V7 za poprzedni miesiąc.</p></li>
-    </ul>
-    <p class="dl-note">Do tego terminy roczne: PIT-11 dla pracowników, deklaracje roczne i sprawozdania finansowe. O dokumentach potrzebnych z Państwa strony przypominamy wcześniej.</p>
-  </div>
-</section>
-
-<section class="sec" id="o-nas">
-  <div class="wrap about">
-    <div class="about-txt">
-      <h2>Kim jesteśmy</h2>
-      <p>Kodeks P to zespół trzech specjalistów od kadr i płac, z ponad 10-letnim doświadczeniem. Pracujemy na profesjonalnym systemie kadrowo-płacowym, dzięki czemu obsługa jest dokładna, a jej koszt niższy niż przy pracy na arkuszach.</p>
-      <p>Każdą firmę prowadzimy indywidualnie, z jedną osobą do kontaktu. Sprawy pracownicze i kontrole nie są dla nas niczym nowym, więc rozwiązujemy je spokojnie i bez zbędnych formalności po Państwa stronie.</p>
-      <div class="start">
-        <h3>Jak zaczynamy współpracę</h3>
-        <ol>
-          <li>Piszą Państwo lub dzwonią: ilu jest pracowników, jaka forma firmy, czego dotyczy obsługa.</li>
-          <li>Przygotowujemy wycenę i umowę.</li>
-          <li>Przejmujemy dokumenty, także od poprzedniego biura, i prowadzimy rozliczenia od kolejnego miesiąca.</li>
-        </ol>
-      </div>
-    </div>
-    <aside class="facts" aria-label="Dane spółki">
-      <h3>Dane spółki</h3>
-      <dl>
-        <div><dt>Nazwa</dt><dd>Kodeks P sp. z o.o.</dd></div>
-        <div><dt>Adres</dt><dd>ul. Kukułki 39<br>11-034 Tomaszkowo</dd></div>
-        <div><dt>KRS</dt><dd>0000854437</dd></div>
-        <div><dt>NIP</dt><dd>745-185-42-97</dd></div>
-        <div><dt>REGON</dt><dd>386802335</dd></div>
-        <div><dt>Na rynku</dt><dd>od 2020 roku</dd></div>
-      </dl>
-    </aside>
-  </div>
-</section>
-
-<section class="sec sec-soft" id="kontakt">
+<section class="sec" id="kontakt">
   <div class="wrap contact">
     <div class="contact-info">
       <h2>Zapytaj o wycenę</h2>
-      <p>Wystarczy kilka informacji o firmie. Odpowiadamy z wyceną i propozycją zakresu obsługi.</p>
+      <p>Wystarczy kilka informacji o firmie. Odpowiemy z wyceną i propozycją zakresu obsługi.</p>
       <ul class="c-list">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span><a href="mailto:wunderlich.a@wp.pl">wunderlich.a@wp.pl</a><small>e-mail</small></span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span><span class="ph">tu Państwa numer</span><small>telefon</small></span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span>ul. Kukułki 39, 11-034 Tomaszkowo<small>gmina Stawiguda, pod Olsztynem</small></span></li>
+        <li><span><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg></span><div><a href="mailto:wunderlich.a@wp.pl">wunderlich.a@wp.pl</a><small>e-mail</small></div></li>
+        <li><span><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg></span><div><span class="ph">tu Państwa numer</span><small>telefon</small></div></li>
+        <li><span><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg></span><div>ul. Kukułki 39, 11-034 Tomaszkowo<small>gmina Stawiguda, pod Olsztynem</small></div></li>
       </ul>
     </div>
-    <form id="form" novalidate>
-      <div class="f"><label for="f-name">Imię i nazwa firmy</label><input id="f-name" name="name" autocomplete="organization"></div>
-      <div class="f"><label for="f-mail">E-mail lub telefon</label><input id="f-mail" name="contact" autocomplete="email"></div>
-      <div class="f"><label for="f-emp">Liczba pracowników</label>
-        <select id="f-emp" name="emp"><option>brak pracowników</option><option>1-5</option><option selected>6-20</option><option>21-50</option><option>powyżej 50</option></select></div>
-      <div class="f"><label for="f-form">Forma firmy</label>
-        <select id="f-form" name="form"><option>spółka z o.o.</option><option>jednoosobowa działalność</option><option>spółka osobowa</option><option>inna</option></select></div>
-      <div class="f full"><span class="lbl">Czego dotyczy zapytanie</span>
-        <div class="chips"><label><input type="checkbox" name="s" checked> Kadry i płace</label><label><input type="checkbox" name="s"> Księgowość</label><label><input type="checkbox" name="s"> Zmiana biura</label></div></div>
-      <div class="f full"><label for="f-msg">Wiadomość</label><textarea id="f-msg" name="msg" placeholder="Np. od kiedy potrzebują Państwo obsługi"></textarea></div>
-      <div class="f-foot"><button class="btn btn-acc" type="submit">Wyślij zapytanie <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button><small>Dane z formularza służą wyłącznie do odpowiedzi na zapytanie.</small></div>
-      <p class="sent-msg" role="status">To wersja podglądowa strony - formularz zostanie podłączony do Państwa skrzynki po akceptacji projektu.</p>
-    </form>
+    <div class="form-card">
+      <form id="form" novalidate>
+        <div class="f"><label for="f-name">Imię i nazwa firmy</label><input id="f-name" name="name" autocomplete="organization"></div>
+        <div class="f"><label for="f-mail">E-mail lub telefon</label><input id="f-mail" name="contact" autocomplete="email"></div>
+        <div class="f"><label for="f-emp">Liczba pracowników</label>
+          <select id="f-emp" name="emp"><option>brak pracowników</option><option>1-5</option><option selected>6-20</option><option>21-50</option><option>powyżej 50</option></select></div>
+        <div class="f"><label for="f-form">Forma firmy</label>
+          <select id="f-form" name="form"><option>spółka z o.o.</option><option>jednoosobowa działalność</option><option>spółka osobowa</option><option>inna</option></select></div>
+        <div class="f full"><span class="lbl">Czego dotyczy zapytanie</span>
+          <div class="chips"><label><input type="checkbox" name="s" checked> Kadry i płace</label><label><input type="checkbox" name="s"> Księgowość</label><label><input type="checkbox" name="s"> Zmiana biura</label></div></div>
+        <div class="f full"><label for="f-msg">Wiadomość</label><textarea id="f-msg" name="msg" placeholder="Np. od kiedy potrzebują Państwo obsługi"></textarea></div>
+        <div class="f-foot"><button class="btn btn-teal" type="submit">Wyślij zapytanie <svg aria-hidden="true"><use href="#i-arrow"/></svg></button><small>Dane z formularza służą wyłącznie do odpowiedzi na zapytanie.</small></div>
+        <p class="sent-msg" role="status">To wersja podglądowa strony - formularz zostanie podłączony do Państwa skrzynki po akceptacji projektu.</p>
+      </form>
+    </div>
   </div>
 </section>
 </main>
@@ -421,7 +413,7 @@ form.sent .sent-msg{display:block}
 
 <div class="mbar" id="mbar">
   <a class="btn btn-line" href="mailto:wunderlich.a@wp.pl">Napisz e-mail</a>
-  <a class="btn btn-acc" href="#kontakt">Zapytaj o wycenę</a>
+  <a class="btn btn-teal" href="#kontakt">Zapytaj o wycenę</a>
 </div>
 
 <script>
@@ -430,7 +422,7 @@ form.sent .sent-msg{display:block}
   var heroOut=false,inContact=false;
   function bar(){m.classList.toggle('show',heroOut&&!inContact)}
   if('IntersectionObserver' in window){
-    new IntersectionObserver(function(e){heroOut=!e[0].isIntersecting;bar()},{rootMargin:'-55% 0px 0px 0px'}).observe(hero);
+    new IntersectionObserver(function(e){heroOut=!e[0].isIntersecting;bar()},{rootMargin:'-60% 0px 0px 0px'}).observe(hero);
     new IntersectionObserver(function(e){inContact=e[0].isIntersecting;bar()},{rootMargin:'0px 0px -30% 0px'}).observe(k);
   }
   var y=null;function sc(){var s=window.scrollY>8;if(s!==y){y=s;h.classList.toggle('solid',s)}}
